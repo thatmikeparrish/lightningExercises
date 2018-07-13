@@ -1,1 +1,1 @@
-# lightningExercises
+# Lightning Exercises
