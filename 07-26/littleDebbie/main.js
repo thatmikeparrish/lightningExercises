@@ -1,7 +1,7 @@
-/* document.getElementById("populateDatabase").addEventListener("click", function(){
-    document.getElementById("displayDatabase").innerHTML = database;
-}); */
 
-const populateButton = document.querySelector("#populateDatabase")
+function populateDB () {
 
-populateButton.addEventListener("click", populateDB)
+    const stringified = JSON.stringify(database)
+    localStorage.setItem("database", stringified)
+    
+}
