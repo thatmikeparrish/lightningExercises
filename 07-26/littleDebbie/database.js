@@ -37,6 +37,7 @@ function saveItem() {
     newData.push(newItem(itemTitle, itemDescription, itemAmount, itemTopping, itemFlavor));
     populateDB();
     console.log("Item saved!");
+    location.reload();
 }
 
 function checkForDatabase() {
